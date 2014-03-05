@@ -1,0 +1,23 @@
+<!DOCTYPE RootElement PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_1.dtd">
+
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>2.1</jspversion>
+	<shortname>gcwTags</shortname>
+	<tag>
+		<name>authenticate</name>
+		<tagclass>gcalendartest.AuthenticateTag</tagclass>
+	</tag>
+	<tag>
+		<name>check</name>
+		<tagclass>gcalendartest.CheckTag</tagclass>
+		<attribute>
+			<name>expectAttr</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>fromContextUrl</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</taglib>
